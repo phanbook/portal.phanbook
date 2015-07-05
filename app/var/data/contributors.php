@@ -1,12 +1,11 @@
 <?php return array (
   0 => 
   array (
-    'phalcon' => 13512.800000000001,
-    'andresgutierrez' => 7193.3000000000002,
-    'sjinks' => 6872,
-    'niden' => 3724.5,
-    'ovr' => 2144.5,
-    'dreamsxin' => 1746.5,
+    'duythien' => 13512.800000000001,
+    'stackphysics' => 7193.3000000000002,
+    'byhbt' => 6872,
+    'vutranvn' => 3724.5,
+    'yehnkay' => 2144.5,
     'xboston' => 1370.4000000000001,
     'carvajaldiazeduar' => 991,
     'mruz' => 660,
@@ -144,10 +143,10 @@
   1 => 
   array (
     'phalcon' => 'https://avatars.githubusercontent.com/u/1221505?v=3',
-    'sjinks' => 'https://avatars.githubusercontent.com/u/7810770?v=3',
-    'andresgutierrez' => 'https://avatars.githubusercontent.com/u/213590?v=3',
-    'niden' => 'https://avatars.githubusercontent.com/u/1073784?v=3',
-    'dreamsxin' => 'https://avatars.githubusercontent.com/u/314295?v=3',
+    'byhbt' => 'https://avatars.githubusercontent.com/u/948856?v=3',
+    'stackphysics' => 'https://avatars.githubusercontent.com/u/7185165?v=3',
+    'vutranvn' => 'https://avatars.githubusercontent.com/u/8856559?v=3',
+    'yehnkay' => 'https://avatars.githubusercontent.com/u/6909106?v=3',
     'mruz' => 'https://avatars.githubusercontent.com/u/2629882?v=3',
     'carvajaldiazeduar' => 'https://avatars.githubusercontent.com/u/1197509?v=3',
     'SidRoberts' => 'https://avatars.githubusercontent.com/u/1364214?v=3',
@@ -286,10 +285,10 @@
   2 => 
   array (
     'phalcon' => 'https://github.com/phalcon',
-    'sjinks' => 'https://github.com/sjinks',
-    'andresgutierrez' => 'https://github.com/andresgutierrez',
-    'niden' => 'https://github.com/niden',
-    'dreamsxin' => 'https://github.com/dreamsxin',
+    'yehnkay' => 'https://github.com/yehnkay',
+    'vutranvn' => 'https://github.com/vutranvn',
+    'byhbt' => 'https://github.com/byhbt',
+    'stackphysics' => 'https://github.com/stackphysics',
     'mruz' => 'https://github.com/mruz',
     'carvajaldiazeduar' => 'https://github.com/carvajaldiazeduar',
     'SidRoberts' => 'https://github.com/SidRoberts',

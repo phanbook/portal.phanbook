@@ -276,8 +276,10 @@
         'support_reporting_a_bug'         => "Reporting a bug",
         'support_reporting_a_bug_1'       => "Please report bugs when you've exhausted all of the above options, using the <a href=':1:'>issue tracker</a> in Github.",
 
-        'demo_video'                      => " &nbsp; Watch the demo video: <span>A polling app built from scratch in &lt; 15 min.</span>",
+        'demo_video'                      => " &nbsp; Watching video: <span>One command line to install Phanbook on Ubuntu &lt; 5 min.</span>",
         'built_with_phalcon' => 'Built with Phalcon',
+        'built_with_phanbook' => 'Built with Phanbook',
+
         'installing_phalcon_php' => 'Installing Phalcon PHP',
         'tutorial' => 'Tutorial',
         'sample_applications' => 'Sample applications',
@@ -285,13 +287,13 @@
         'designed_by' => 'Designed by:',
         'license_new_bsd' => "Phalcon is an open-source PHP framework <br />built as a C-extension. It is available under the <br /><a href=\"http://opensource.org/licenses/BSD-3-Clause\" target=\"_blank\">new BSD License</a>.",
         'how_to_contribute'               => "How to Contribute",
-        'get_phalcon'                     => 'Get Phalcon',
+        'get_phalcon'                     => 'Get Phanbook',
         'install_instructions'            => 'Install instructions',
         'watch_the_demo'                  => 'Watch the demo',
         'see_all_screencasts'             => 'See all Screencasts here',
-        'header_tagline'                  => 'A full-stack PHP framework delivered as a C-extension',
+        'header_tagline'                  => 'A platform for community discussion, answer question and more',
         'see_for_youself'                 => 'See for yourself...',
-        'header_slogan'                   => 'Its innovative architecture makes Phalcon the fastest PHP framework ever built!',
+        'header_slogan'                   => 'Phanbook is a free open source, it powered by PhalconPHP Framework',
         'codesamples_header'              => 'Discover the wealth of built-in components',
         'basic_fatures' => 'Basic features',
         'low_overhead' => 'Low overhead',
@@ -321,15 +323,20 @@
         'view_and_frontend' => 'Views &amp; frontend',
         'others' => 'Others',
         'join_community' => 'Come join our vibrant developer community!',
-        'learn_to_fly' => 'Learn to fly with Phalcon 2',
-        'learn_to_fly_text' => 'Get started by learning the basic concepts behind a common Phalcon application',
+        'learn_to_fly' => 'Learn to fly with Phanbook',
+        'learn_to_fly_text' => 'Get started by learning the basic concepts behind a common Phanbook application',
         'meet_zephir' => 'Meet Zephir',
+        'meet_phalcon' => 'Meet Phalcon',
         'meet_zephir_text' => 'Learn about the technology that empowers Phalcon',
+        'meet_phalcon_text' => 'Learn about the technology that empowers Phanbook',
         'visit_website' => 'Visit the website',
-        'help_to_fly' => 'Help Phalcon to fly higher',
+        'help_to_fly' => 'Help Phanbook to fly higher',
         'help_to_fly_text' => 'Show your appreciation and help us with project costs by simply donating via:',
         'try_tutorial' => 'Try the tutorial',
-        'folow_along' => 'Follow along:'
+        'follow_along' => 'Follow along:',
+        '100_opensource' => '100% Open Source',
+        'try_it' => 'Try it',
+        'buy_it' => 'Buy it'
     );
 
     // return $messages;

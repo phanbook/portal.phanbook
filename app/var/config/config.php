@@ -16,7 +16,7 @@
         'libraryDir'     => ROOT_PATH . '/app/library/',
         'voltDir'        => ROOT_PATH . '/app/var/volt/',
         'baseUri'        => '/',
-        'debug'          => false,
+        'debug'          => true,
         'cdn'            => 'https://static.phalconphp.com/www/'
     );
 
@@ -39,14 +39,6 @@
                 'action'     => 'redirectIndex',
             ),
             'name'   => 'index-redirect',
-        ),
-        // Pages
-        '/{pageSlug:(about|team|roadmap|consulting|hosting|testimonials|support)}' => array(
-            'params' => array(
-                'controller' => 'index',
-                'action'     => 'redirectPages',
-            ),
-            'name'   => 'pages-redirect',
         ),
         '/contributors' => array(
             'params' => array(
@@ -123,7 +115,7 @@
             'name'   => 'index',
         ),
         // Pages
-        '/{language:[a-z]{2}}/{pageSlug:(about|team|roadmap|consulting|hosting|testimonials|support)}' => array(
+        '/{language:[a-z]{2}}/{pageSlug:(about|team|roadmap|consulting|hosting|testimonials|support|buy)}' => array(
             'params' => array(
                 'controller' => 'pages',
                 'action'     => 'page',
@@ -232,7 +224,8 @@
         'consulting',
         'hosting',
         'support',
-        'donate'
+        'donate',
+        'buy'
     );
 return array(
     'application' => $application,

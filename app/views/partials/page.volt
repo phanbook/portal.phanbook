@@ -44,6 +44,8 @@
                     Roadmap
                 {% elseif isPage === 'support' %}
                     {{ tr('support') }}
+                {% elseif isPage === 'buy'%}
+                    {{ tr('buy_it')}}
                 {% elseif isPage === 404 %}
                     Not Found
                 {% else %}

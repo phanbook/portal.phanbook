@@ -54,10 +54,10 @@ class IndexController extends \ControllerBase
 
     public function redirectPagesAction()
     {
-        $slug = $this->getUriParameter('pageSlug');
-
-        $slug = ($slug) ? $slug : '';
-        $this->response->redirect($this->getLang() . '/' . $slug, 301);
+        // $slug = $this->getUriParameter('pageSlug');
+        // die($slug);
+        // $slug = ($slug) ? $slug : '';
+        // $this->response->redirect($this->getLang() . '/' . $slug, 301);
     }
 
     public function redirectDownloadAction()
