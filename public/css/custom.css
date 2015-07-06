@@ -1,0 +1,11 @@
+.logo > img {
+    margin: 37px;
+    width: 130px;
+}
+footer h2 a, .footer-license a {
+	color: #ffffff;
+}
+
+h2 a {
+	font-size: 19px;
+}

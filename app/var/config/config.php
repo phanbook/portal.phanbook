@@ -21,7 +21,7 @@
     );
 
     $cache = array(
-        'lifetime' => 86400 ,
+        'lifetime' => 1 ,
         'cacheDir' => ROOT_PATH . '/app/var/cache/' ,
     );
     $routes = array(

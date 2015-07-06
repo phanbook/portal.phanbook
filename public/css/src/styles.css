@@ -27,7 +27,7 @@ a.super { font-size: 55%; vertical-align: super; }
 header .navbar { margin-top: -15px; }
 header .navbar-toggle { border-color: #ffffff; margin-top: 15px; }
 header .navbar-toggle span { background: #ffffff; }
-header .phalcon-logo { display: block; width: 200px; height: 90px; background: transparent url("//static.phalconphp.com/www/images/phalcon.png") 0 0 no-repeat; background-size: 200px 90px; }
+header .phalcon-logo { display: block; width: 200px; height: 90px; background: transparent url("../images/logo.png") 0 0 no-repeat; background-size: 200px 90px; }
 header .main-menu { margin-top: 38px; }
 header .main-menu li { margin: 0 3px; }
 header .main-menu li a { color: #bae1e6; font-size: 17px; text-shadow: 1px 1px 1px #0e566a; padding: 8px 18px; }
@@ -177,7 +177,7 @@ a:hover.btn-video span { color: #b9f4d3; }
   header .main-menu li { margin: 0 1px; }
   header .main-menu li a { padding: 8px 16px; }
   header .dropdown-menu li a { padding: 4px 0 4px 32px; } }
-@media screen and (min-width: 992px) { header .phalcon-logo { margin-left: 0px; display: block; width: 200px; height: 90px; background: transparent url("//static.phalconphp.com/www/images/phalcon.png") 0 0 no-repeat; background-size: 200px 90px; }
+@media screen and (min-width: 992px) { header .phalcon-logo { margin-left: 0px; display: block; width: 200px; height: 90px; background: transparent url("../images/phalcon.png") 0 0 no-repeat; background-size: 200px 90px; }
   header .main-menu { margin-top: 38px; border-top: none; padding-top: 0; } }
 .team h3 { margin-top: 0; margin-bottom: 10px; }
 
