@@ -261,6 +261,7 @@ class Bootstrap
      */
     protected function initCache($options = array())
     {
+        return true;
         $config = $this->di['config'];
 
         $this->di['viewCache'] = function () use ($config) {

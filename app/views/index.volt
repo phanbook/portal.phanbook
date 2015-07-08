@@ -14,8 +14,8 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="phalcon-logo" href="/{{ language }}/">
-                                <!--<img src="/images/phalcon-logo-text.png" alt="Phalcon PHP"/>-->
+                            <a class="logo" href="/{{ language }}/">
+                                <img src="/images/phalcon.png" alt="Phalcon PHP"/>
                             </a>
                         </div>
 

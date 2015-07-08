@@ -36,8 +36,8 @@
     <meta name="keywords" content="php, phalcon, phalcon php, php framework, faster php framework">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
-    <link href="{{ cdn_url }}css/phalcon.min.css" rel='stylesheet' type='text/css'>
-        <link href="{{ cdn_url }}css/custom.css" rel='stylesheet' type='text/css'>
+    <link href="/css/phalcon.min.css" rel='stylesheet' type='text/css'>
+        <link href="/css/custom.css" rel='stylesheet' type='text/css'>
 
     <link href='//fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
     <!--
