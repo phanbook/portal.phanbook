@@ -1,0 +1,261 @@
+.logo > img {
+    margin: 46px 0 30px;
+    width: 130px;
+}
+footer h2 a, .footer-license a {
+	color: #ffffff;
+}
+
+h2 a {
+	font-size: 19px;
+}
+h2{
+	font-size: 18px;
+	color: #262A2C;
+	font-weight: bold;
+}
+#questions p{
+	font-size: 15px;
+	margin: 10px 0 17px;
+	line-height: 23px;
+}
+section.buy .row{
+	margin: 0;
+}
+section a {
+	color: #00aeef;
+}
+header .container, section .container{
+	width: 960px;
+	padding: 0;
+}
+section.container .row{
+	padding: 20px 0 60px 0;
+    margin: 0 auto;
+    width: 960px;
+}
+h1.intro{
+	color: #101b27;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.pricing::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.pricing::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.pricing, .one-install{
+	margin: 40px 0 0 !important;
+}
+.pricing .tier{
+	width: 32%;
+	display: block;
+	float: left;
+	border: 1px solid;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0;
+}
+.pricing .tier:first-of-type {
+    margin-right: 2%;
+}
+.pricing .tier:last-of-type {
+    margin-left: 2%;
+}
+.pricing #standard-tier {
+    border-color: #29ABE2;
+}
+.pricing #business-tier {
+    border-color: #F9A41A;
+}
+.pricing #enterprise-tier {
+    border-color: #1BB058;
+}
+.pricing #standard-tier .price, .pricing #business-tier .price, .pricing #enterprise-tier .price, 
+.one-install #install-tier .price, .one-install #support-tier .price {
+    z-index: -1;
+    position: relative;
+    background: transparent url("/images/chat-bg.png") repeat scroll 0% 0%;
+}
+.pricing .tier .price {
+    font-size: 60px;
+}
+.pricing #business-tier .price div {
+    background: rgba(249, 164, 26, 0.8);
+    height: 165px;
+    padding: 10px;
+}
+.pricing #standard-tier .price div {
+    background: rgba(41, 171, 226, 0.8);
+    height: 165px;
+    padding: 10px;
+}
+.pricing #enterprise-tier .price div {
+    background: rgba(27, 176, 88, 0.8);
+    height: 165px;
+    padding: 10px;
+}
+.pricing .tier .price, .one-install .wide-tier .price {
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+}
+.pricing #standard-tier .tier-title {
+    background: #29ABE2 none repeat scroll 0% 0%;
+}
+.pricing #business-tier .tier-title {
+    background: #F9A41A none repeat scroll 0% 0%;
+}
+.pricing #enterprise-tier .tier-title {
+    background: #1BB058 none repeat scroll 0% 0%;
+}
+.pricing .tier-title, .one-install .tier-title {
+    text-align: center;
+    padding: 8px 20px 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top: -65px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+span.dollar {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 2;
+    vertical-align: top;
+}
+span.per-mo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+}
+.tier-details ul {
+    padding: 15px 10px;
+    list-style-type: none;
+    text-align: center;
+    height: 520px;
+}
+article section a {
+    color: #00AEEF;
+    text-decoration: none;
+}
+.pricing .tier-details li {
+    font-size: 15px;
+    margin: 0px;
+    padding: 9px 0px;
+}
+.tier-details .freetrial {
+    color: #D13138;
+    font-weight: bold;
+}
+.btn-small, input[type="submit"] {
+    text-align: center;
+    text-decoration: none;
+    border: medium none;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    bottom: 0px;
+    display: block;
+    position: relative;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #00AEEF;
+    box-shadow: 0px 1px #3DCAFF inset, 0px 5px #0076A3, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.25s ease 0s;
+    font-family: "Open Sans",sans-serif;
+    text-shadow: -1px 1px #009BD6;
+}
+#business-tier .btn-small, .business input[type="submit"] {
+    background-color: #F9A41A;
+    box-shadow: 0px 1px #E9B35C inset, 0px 5px #AE7212, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: -1px 1px #AE7212;
+}
+#business-tier .btn-small:hover, .business input[type="submit"]:hover {
+    background-color: #C98414;
+    box-shadow: 0px 1px #E9B35C inset, 0px 5px #9C6610, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: -1px 1px #AE7212;
+    color: #fff;
+}
+#enterprise-tier .btn-small:hover, .enterprise input[type="submit"]:hover {
+    background-color: #158C46;
+    box-shadow: 0px 1px #55B37C inset, 0px 5px #106E36, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: -1px 1px #106E36;
+    color: #fff;
+}
+#enterprise-tier .btn-small, .enterprise input[type="submit"] {
+    background-color: #1BB058;
+    box-shadow: 0px 1px #5FC78A inset, 0px 5px #127B3D, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: -1px 1px #127B3D;
+    color: #fff;
+}
+
+#install-tier .tier-title {
+    margin-top: -70px;
+}
+#install-tier span.dollar {
+    line-height: 2.4;
+}
+.wide-tier .price-and-title {
+    float: left;
+    height: 200px;
+    width: 32%;
+    padding: 0;
+}
+.wide-tier .price-and-title .price {
+    border-right: 1px solid #d13138;
+}
+.wide-tier .tier-details {
+    float: left;
+    margin-left: 40px;
+    width: 62%;
+}
+.wide-tier .btn-small {
+    width: 200px;
+}
+.wide-tier::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.one-install #install-tier .tier-title, .one-install #support-tier .tier-title {
+    background: #d13138;
+}
+.one-install .wide-tier {
+    border: 1px solid #d13138;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+.one-install .wide-tier p {
+    padding: 10px 15px 7px 7px;
+}
+.one-install #install-tier .price div, .one-install #support-tier .price div {
+    background: rgba(209, 49, 56, 0.8);
+    font-size: 70px;
+    height: 200px;
+    padding: 30px 10px 20px;
+}
+#install-tier .btn-small:hover, .install input[type="submit"]:hover {
+    background: #942126;
+    box-shadow: 0px 1px #BE2A31 inset, 0px 5px #551316, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: -1px 1px #551316;
+    color: #fff;
+}
+#install-tier .btn-small, #install-tier .btn-small:visited, .install input[type="submit"] {
+    background: #D13138;
+    box-shadow: 0px 1px #D6464C inset, 0px 5px #942126, 0px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 0px 0px 20px;
+    text-shadow: -1px 1px #942126;
+}

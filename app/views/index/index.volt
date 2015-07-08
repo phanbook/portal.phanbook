@@ -51,8 +51,8 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-        <h3>  Local Avatars </h3>
-           Built-in local avatar generation with no external dependencies. Alternately, select an existing Gravatar, or upload a custom avatar.
+        <h3>Mutiple Theme </h3>
+            We have some templates like <a href="http://discourse.org/"> discource</a>, <a href="http://forum.phalconphp.com">Phalcon forum</a> for you, so you can setting very easy
         </div>
         <div class="col-md-4">
         <h3>Spam Blocking </h3>
