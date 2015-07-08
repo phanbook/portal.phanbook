@@ -26,8 +26,8 @@
             <div class="col-md-2 col-sm-3">
                 <h4>{{ tr('community') }}</h4>
                 <ul>
-                    <li><a href="https://github.com/phalcon/cphalcon">GitHub</a></li>
-                    <li><a href="https://github.com/phalcon/cphalcon/issues">{{ tr('issue_tracker') }}</a></li>
+                    <li><a href="https://github.com/phanbook/phanbook">GitHub</a></li>
+                    <li><a href="https://github.com/phanbook/phanbook/issues">{{ tr('issue_tracker') }}</a></li>
                     <li><a href="http://store.phalconphp.com/">{{ tr('store') }}</a></li>
                     <li><a href="http://chat.phalcontip.com/">{{ tr('Live chat') }}</a></li>
                     <li><a href="http://builtwith.phalconphp.com/">{{ tr('built_with_phanbook') }}</a></li>
@@ -36,10 +36,10 @@
             <div class="col-md-2col-sm-2">
                 <h4>{{ tr('about') }}</h4>
                 <ul>
-                    <li><a class="link-black" href="http://blog.phalconphp.com/">{{ tr('blog') }}</a></li>
+                    <li><a class="link-black" href="http://phanbook.com/">{{ tr('blog') }}</a></li>
                     <li>{{ link_to(['for': 'pages', 'pageSlug': 'about', 'language': language], tr('about')) }}</li>
-                    <li>{{ link_to(['for': 'pages', 'pageSlug': 'team', 'language': language], tr('team')) }}</li>
-                    <li>{{ link_to(['for': 'pages', 'pageSlug': 'roadmap', 'language': language], tr('roadmap')) }}</li>
+                    <li>{{ link_to(['for': 'pages', 'pageSlug': '#', 'language': language], tr('team')) }}</li>
+                    <li>{{ link_to(['for': 'pages', 'pageSlug': '#', 'language': language], tr('roadmap')) }}</li>
                     <li>{{ link_to(['for': 'pages', 'pageSlug': 'hosting', 'language': language], tr('hosting')) }}</li>
                 </ul>
             </div>

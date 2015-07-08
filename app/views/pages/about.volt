@@ -1,5 +1,5 @@
-<section class="about">
-    {% include 'pages/header.volt' %}
+<section class="about container">
+    {#% include 'pages/header.volt' %#}
         <div class="row">
             <div class="col-lg-12">
                 <p>{{ tr('about_description_1') }}</p>

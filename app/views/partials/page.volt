@@ -19,8 +19,8 @@
 <div class="heading">
     <div class="container">
         <div class="row">
-            <h2>
-                {% if dispatcher.getControllerName() === 'download' %}
+            <h2 class="breadcrumbs">
+                {#{% if dispatcher.getControllerName() === 'download' %}
                     {% if isPage === 'index' %}
                         {{ tr('download_phalcon') }}
                     {% elseif isPage === 'windows' %}
@@ -53,6 +53,7 @@
                 {% else %}
                     Documentation - {{ dispatcher.getControllerName() }} - {{ dispatcher.getActionName() }}
                 {% endif %}
+                #}
             </h2>
         </div>
     </div>
