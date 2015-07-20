@@ -84,13 +84,13 @@
             'name'   => 'download-vagrant-redirect',
         ),
         // Documentation
-        '/(documentation|reference)' => array(
-            'params' => array(
-                'controller' => 'documentation',
-                'action'     => 'index',
-            ),
-            'name'   => 'documentation',
-        ),
+        // '/(documentation|reference)' => array(
+        //     'params' => array(
+        //         'controller' => 'documentation',
+        //         'action'     => 'index',
+        //     ),
+        //     'name'   => 'documentation',
+        // ),
         // Donate
         '/donate' => array(
             'params' => array(
@@ -116,7 +116,7 @@
         ),
         // Pages
         // /{language:[a-z]{2}}/{pageSlug:(about|team|roadmap|consulting|hosting|testimonials|support|buy)
-        '/{language:[a-z]{2}}/{pageSlug:(about|roadmap|consulting|hosting|testimonials|support|buy)}' => array(
+        '/{language:[a-z]{2}}/{pageSlug:(about|roadmap|consulting|hosting|testimonials|support|buy|documentation)}' => array(
             'params' => array(
                 'controller' => 'pages',
                 'action'     => 'page',
@@ -152,13 +152,13 @@
             'name'   => 'download-vagrant',
         ),
         // Documentation
-        '/{language:[a-z]{2}}/(documentation|reference)' => array(
-            'params' => array(
-                'controller' => 'documentation',
-                'action'     => 'index',
-            ),
-            'name'   => 'documentation',
-        ),
+        // '/{language:[a-z]{2}}/(documentation|reference)' => array(
+        //     'params' => array(
+        //         'controller' => 'documentation',
+        //         'action'     => 'index',
+        //     ),
+        //     'name'   => 'documentation',
+        // ),
         // Donate
         '/{language:[a-z]{2}}/donate' => array(
             'params' => array(
@@ -214,7 +214,6 @@
     $pages = array(
         '',
         'about',
-        'team',
         'testimonials',
         'download',
         'download/windows',
@@ -226,7 +225,8 @@
         'hosting',
         'support',
         'donate',
-        'buy'
+        'buy',
+        'documentation'
     );
 return array(
     'application' => $application,

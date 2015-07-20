@@ -169,13 +169,16 @@ article section a {
     bottom: 0px;
     display: block;
     position: relative;
-    color: #FFF;
+    color: #fff;
     font-weight: bold;
     background-color: #00AEEF;
     box-shadow: 0px 1px #3DCAFF inset, 0px 5px #0076A3, 0px 3px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.25s ease 0s;
     font-family: "Open Sans",sans-serif;
     text-shadow: -1px 1px #009BD6;
+}
+.btn-small:hover, input[type="submit"]:hover{
+	color: #fff;
 }
 #business-tier .btn-small, .business input[type="submit"] {
     background-color: #F9A41A;
@@ -186,21 +189,18 @@ article section a {
     background-color: #C98414;
     box-shadow: 0px 1px #E9B35C inset, 0px 5px #9C6610, 0px 3px 5px rgba(0, 0, 0, 0.3);
     text-shadow: -1px 1px #AE7212;
-    color: #fff;
 }
 #enterprise-tier .btn-small:hover, .enterprise input[type="submit"]:hover {
     background-color: #158C46;
     box-shadow: 0px 1px #55B37C inset, 0px 5px #106E36, 0px 3px 5px rgba(0, 0, 0, 0.3);
     text-shadow: -1px 1px #106E36;
-    color: #fff;
 }
 #enterprise-tier .btn-small, .enterprise input[type="submit"] {
     background-color: #1BB058;
     box-shadow: 0px 1px #5FC78A inset, 0px 5px #127B3D, 0px 3px 5px rgba(0, 0, 0, 0.3);
     text-shadow: -1px 1px #127B3D;
-    color: #fff;
-}
 
+}
 #install-tier .tier-title {
     margin-top: -70px;
 }
@@ -252,7 +252,6 @@ article section a {
     background: #942126;
     box-shadow: 0px 1px #BE2A31 inset, 0px 5px #551316, 0px 3px 5px rgba(0, 0, 0, 0.3);
     text-shadow: -1px 1px #551316;
-    color: #fff;
 }
 #install-tier .btn-small, #install-tier .btn-small:visited, .install input[type="submit"] {
     background: #D13138;

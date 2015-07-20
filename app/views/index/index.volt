@@ -118,6 +118,7 @@
 </section>
 
 
+{{content()}}
 <section class="getinvolved">
 
     <div class="container">
@@ -139,7 +140,7 @@
                 <h3>{{ tr('help_to_fly') }}</h3>
                 <p>{{ tr('help_to_fly_text') }}</p>
                
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline" target="_blank">
+                <form action="#" method="post" style="display: inline" target="_blank">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="7LSYMNMFZNG8W" />
                     <button class="btn btn-lg btn-phalcon" type="submit" title="PayPal — The safer, easier way to pay online.">Donation</button>

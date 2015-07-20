@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-4">
                 <h2><a href="/en-US/">Phanbook</a></h2>
-                <p class="footer-license">Portions of this content are &copy;2014&ndash;2015 by individual phanbook.com contributors. Content available under a <a href="/en-US/foundation/licensing/website-content/">Creative Commons license</a>.</p>
+                <p class="footer-license">Portions of this content are &copy;2014&ndash;2015 by individual phanbook.com contributors. Content available under a <a href="/">Creative Commons license</a>.</p>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-2 col-sm-3">
