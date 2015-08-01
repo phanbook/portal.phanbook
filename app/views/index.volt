@@ -29,31 +29,21 @@
                         <h1>{{ tr('header_tagline') }}</h1>
                         <p>
                             {{ tr('header_slogan') }}
-                            <!-- <a id="bench-link" href="http://docs.phalconphp.com" target="_blank">
-                                {{ tr('see_for_youself') }}
-                            </a> -->
                         </p>
 
                         <div class="home-button-container">
-                            {{ link_to(['for': 'pages', 'id': 'the-difference-tm', 'pageSlug': 'download', 'language': language], '<i class="fa fa-download"></i> '~ tr('get_phalcon') ~ ' 1.0', 'class': 'btn btn-lg btn-phalcon') }}
+                            <a  class="btn btn-lg btn-phalcon" href="https://github.com/phanbook/phanbook/"><i class="fa fa-download"></i>{{tr('get_phalcon')}}</a>
                             <div class="sublinks">
-                                {{ link_to(['for': 'pages', 'pageSlug': 'download', 'language': language], tr('download')~' v.1.0.0') }} |
-                                {{ link_to(['for': 'pages', 'pageSlug': 'download', 'language': language], tr('install_instructions')) }}
-                            </div>
-                        </div>
-
-                        <div class="home-button-container">
-                            <a id="the-difference-tm" href="http://vimeo.com/63022489" class="btn btn-lg btn-phalcon">
-                                <i class="fa fa-youtube-play"></i> {{ tr('watch_the_demo') }}
-                            </a>
-                            <div class="sublinks">
-                                {#<a href="https://vimeo.com/phalconphp">{{ tr('see_all_screencasts') }}</a>#}
+                                <a href="https://github.com/phanbook/phanbook/">Fork me on Github</a>
+                                <a href="https://github.com/phanbook/docs">Documents</a>
+                                <a href="https://github.com/phanbook/docs/install.md">Install instructions</a>
                             </div>
                         </div>
                     </div>
 
                     <div id="mountains">
                         {# SVG HERE #}
+                        <img src="/images/mountains.png"/>
                     </div>
                 </div>
             </header>
