@@ -36,7 +36,7 @@
                             <div class="sublinks">
                                 <a href="https://github.com/phanbook/phanbook/">Fork me on Github</a>
                                 <a href="https://github.com/phanbook/docs">Documents</a>
-                                <a href="https://github.com/phanbook/docs/install.md">Install instructions</a>
+                                <a href="https://github.com/phanbook/docs/blob/master/install.md">Install instructions</a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,9 @@
                     </div>
                 </div>
             </header>
-            <a class="video btn-video" href="http://vimeo.com/63022489"><i class="icon-youtube"></i>{{ tr('demo_video') }}</a>
+            <a class="video btn-video" href="https://www.youtube.com/watch?v=sC8jpfCDGT8"><i class="icon-youtube"></i>
+                   Watching video: <span>with the recent beta version release of Phanbook</span>
+            </a>
         {% else %}
                 {% include 'partials/page.volt' %}
         {% endif %}
@@ -62,5 +64,15 @@
         <script src="{{ cdn_url }}js/plugins/highlight.pack.js"></script>
         <script src="{{ cdn_url }}js/plugins/jquery.backstretch.min.js"></script>
         <script src="{{ cdn_url }}js/phalcon.min.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-47328645-6', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </body>
 </html>

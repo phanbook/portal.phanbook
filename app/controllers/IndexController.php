@@ -7,7 +7,7 @@ class IndexController extends \ControllerBase
 
     public function indexAction()
     {
-        $this->tag->setTitle('Phalcon - High Performance PHP Framework');
+        $this->tag->setTitle('Phanbook - A platform for community discussion, answer question and more');
     }
 
     public function notFoundAction()

@@ -1,10 +1,10 @@
 <head>
     <meta charset="utf-8">
     
-    <meta name="twitter:site" content="@phalconphp" />
+    <meta name="twitter:site" content="@phanbook" />
     <meta name="twitter:card" content="summary" />
 
-    <meta property="og:site_name" content="Phalcon PHP" />
+    <meta property="og:site_name" content="Phanbook" />
     <meta property="og:type" content="website" /> <!-- article or subpages-->
 
     {# #TODO
@@ -33,7 +33,7 @@
 
 
     {{ get_title() }}
-    <meta name="keywords" content="php, phalcon, phalcon php, php framework, faster php framework">
+    <meta name="keywords" content="phanbook, phalcon php, forum, qa site">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
     <link href="/css/phalcon.min.css" rel='stylesheet' type='text/css'>

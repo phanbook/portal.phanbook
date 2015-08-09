@@ -18,7 +18,7 @@ EOF;
 		$pages     = $this->config->pages;
 		$template  = "
 <url>
-<loc>http://www.phalconphp.com/%s/%s</loc>
+<loc>http://phanbook.com/%s/%s</loc>
 <changefreq>daily</changefreq>
 </url>";
 
@@ -70,7 +70,7 @@ EOF;
         $l = array();
 
         foreach ($repositories as $repository => $weight) {
-            $response = file_get_contents('https://api.github.com/repos/phalcon/' . $repository . '/contributors', false, $context);
+            $response = file_get_contents('https://api.github.com/repos/phanbook/' . $repository . '/contributors', false, $context);
             if ($response) {
                 $contributors = json_decode($response, true);
 
