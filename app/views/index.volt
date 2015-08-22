@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </header>
-            <a class="video btn-video" href="https://www.youtube.com/watch?v=sC8jpfCDGT8"><i class="icon-youtube"></i>
+            <a class="video btn-video" href="https://vimeo.com/136367991"><i class="icon-youtube"></i>
                    Watching video: <span>with the recent beta version release of Phanbook</span>
             </a>
         {% else %}
