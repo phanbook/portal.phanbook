@@ -291,7 +291,7 @@
         'install_instructions'            => 'Install instructions',
         'watch_the_demo'                  => 'Watch the demo',
         'see_all_screencasts'             => 'See all Screencasts here',
-        'header_tagline'                  => 'A Q&A PHP platform and Discussion platform',
+        'header_tagline'                  => 'A Q&A, Discussion PHP platform',
         'see_for_youself'                 => 'See for yourself...',
         'header_slogan'                   => 'Phanbook is a free open source, it powered by PhalconPHP Framework',
         'codesamples_header'              => 'Discover the wealth of built-in components',
