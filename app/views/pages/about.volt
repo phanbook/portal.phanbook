@@ -6,7 +6,7 @@
                 <p>{{ tr('about_description_2') }}</p>
             </div>
         </div>
-        <div class="row">
+    {#    <div class="row">
             <div class="col-lg-6">
                 <h3 class="text-uppercase">{{ tr('documentation_upper') }}</h3>
                 <p>{{ tr('about_documentation_1', 'https://github.com/phalcon/docs', 'https://readthedocs.org') }}</p>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="hr"></div>
-
+    
         <div class="row">
             <div class="col-lg-6">
                 <h3 class="text-uppercase">{{ tr('tests') }}</h3>
@@ -87,7 +87,7 @@
                 <p>{{ tr('about_sponsoring_1') }}</p>
             </div>
         </div>
-
+    #}
         <div class="hr"></div>
 
         <div class="row">

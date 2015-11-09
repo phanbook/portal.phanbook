@@ -127,7 +127,7 @@
                 <!--<i class="icon-code icon-huge"></i>-->
                 <h3>{{ tr('learn_to_fly') }}</h3>
                 <p>{{ tr('learn_to_fly_text') }}</p>
-                <a href="{{ docs_root }}reference/tutorial.html" class="btn btn-lg btn-phalcon">{{ tr('try_tutorial') }}</a>
+                <a href="https://github.com/phanbook/docs" class="btn btn-lg btn-phalcon">{{ tr('try_tutorial') }}</a>
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <!--<img src="/images/zephir.png" alt="Zephir Language"/>-->
@@ -139,12 +139,12 @@
                 <!--<i class="icon-todo-fa fa fa-thumbs-o-up icon-huge"></i>-->
                 <h3>{{ tr('help_to_fly') }}</h3>
                 <p>{{ tr('help_to_fly_text') }}</p>
-               
-                <form action="#" method="post" style="display: inline" target="_blank">
+                <a href="https://gratipay.com/phanbook/" class="btn btn-lg btn-phalcon">Gratipay</a>
+                {#<form action="#" method="post" style="display: inline" target="_blank">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="7LSYMNMFZNG8W" />
                     <button class="btn btn-lg btn-phalcon" type="submit" title="PayPal — The safer, easier way to pay online.">Donation</button>
-                </form>
+                </form>#}
             </div>
         </div>
     </div>
