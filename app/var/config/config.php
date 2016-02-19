@@ -84,13 +84,13 @@
             'name'   => 'download-vagrant-redirect',
         ),
         // Documentation
-        // '/(documentation|reference)' => array(
-        //     'params' => array(
-        //         'controller' => 'documentation',
-        //         'action'     => 'index',
-        //     ),
-        //     'name'   => 'documentation',
-        // ),
+        '/(documentation|reference)' => array(
+            'params' => array(
+                'controller' => 'documentation',
+                'action'     => 'index',
+            ),
+            'name'   => 'documentation',
+        ),
         // Donate
         '/donate' => array(
             'params' => array(
@@ -174,6 +174,13 @@
                 'action'     => 'humans',
             ),
             'name'   => 'humans',
+        ),
+        '/docs' => array(
+            'params' => array(
+                'controller' => 'docs',
+                'action'     => 'index',
+            ),
+            'name'   => 'humans',
         )
     );
     /**
@@ -226,7 +233,8 @@
         'support',
         'donate',
         'buy',
-        'documentation'
+        'documentation',
+        'docs'
     );
 return array(
     'application' => $application,
