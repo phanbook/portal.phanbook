@@ -16,10 +16,11 @@
         </div>
     </nav>
 </header>
-<div class="heading">
+<section class="heading">
     <div class="container">
         <div class="row">
-            <h2 class="breadcrumbs">
+            <div class="col-md-3">
+                <h2>
                 {#{% if dispatcher.getControllerName() === 'download' %}
                     {% if isPage === 'index' %}
                         {{ tr('download_phalcon') }}
@@ -54,7 +55,12 @@
                     Documentation - {{ dispatcher.getControllerName() }} - {{ dispatcher.getActionName() }}
                 {% endif %}
                 #}
+                {% if dispatcher.getControllerName() == 'docs' %}
+                    Documentations
+                {% endif %}
             </h2>
+            </div>
+            <div class="col-md-9"></div>
         </div>
     </div>
-</div>
+</section>

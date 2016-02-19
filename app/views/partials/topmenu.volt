@@ -1,5 +1,5 @@
 <ul class="nav navbar-nav main-menu">
-    {#<li>{{ link_to(['for': 'pages', 'pageSlug': 'documentation', 'language': language], tr('documentation')) }}</li>#}
+    <li>{{ link_to('docs', tr('documentation')) }}</li>
 
     <li><a href="http://phanbook.com/" class="header-nav-link" target="_blank">{{ tr('Themes') }}</a></li>
     <li><a href="http://blog.phanbook.com/" class="header-nav-link" target="_blank">{{ tr('blog') }}</a></li>

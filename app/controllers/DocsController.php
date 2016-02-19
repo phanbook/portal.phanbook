@@ -5,8 +5,8 @@ class DocsController extends \ControllerBase
 
     public function indexAction()
     {
-        
-        
+        $context = file_get_contents(ROOT_PATH . '/docs/introduction.md');
+        $this->view->context = $context;        
 
     }
 
@@ -14,8 +14,7 @@ class DocsController extends \ControllerBase
     {
         $slug = $this->dispatcher->getParam('slug');
 
-        $context = file_get_contents(ROOT_PATH . '/docs/vagrant.md');
-        $this->view->isFrontpage = 0;
+        $context = file_get_contents(ROOT_PATH . '/docs/' . $slug .'.md');
         $this->view->context = $context;
     }
 
