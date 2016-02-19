@@ -6,7 +6,8 @@ class DocsController extends \ControllerBase
     public function indexAction()
     {
         $context = file_get_contents(ROOT_PATH . '/docs/introduction.md');
-        $this->view->context = $context;        
+        $this->view->context = $context;
+        $this->view->slug = 'introduction';      
 
     }
 
@@ -16,6 +17,7 @@ class DocsController extends \ControllerBase
 
         $context = file_get_contents(ROOT_PATH . '/docs/' . $slug .'.md');
         $this->view->context = $context;
+        $this->view->slug  = $slug;
     }
 
     public function initialize()
