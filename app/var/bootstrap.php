@@ -17,7 +17,7 @@ use Phalcon\DI\FactoryDefault as PhDi,
     Phalcon\Cache\Frontend\Output as PhCacheFront,
     Phalcon\Cache\Backend\File as PhCacheBackFile,
     Phalcon\Cache\Backend\Apc as PhCacheBackApc;
-
+include ROOT_PATH . '/app/library/Markdown/Parsedown.php';
 class Bootstrap
 {
     private $di;
@@ -49,6 +49,7 @@ class Bootstrap
             'router',
             'view',
             'cache',
+            'markdown'
         );
 
         foreach ($loaders as $service) {
@@ -62,6 +63,14 @@ class Bootstrap
         return $application->handle($_SERVER['REQUEST_URI'])->getContent();
     }
 
+    protected function initMarkdown()
+    {
+        $this->di['markdown'] = function () {
+
+            $parsedown = new Parsedown();
+            return $parsedown;
+        };
+    }
     // Protected functions
     /**
      * Initializes the session

@@ -181,6 +181,13 @@
                 'action'     => 'index',
             ),
             'name'   => 'humans',
+        ),
+        '/docs/{slug}' => array(
+            'params' => array(
+                'controller' => 'docs',
+                'action'     => 'show',
+            ),
+            'name'   => 'show',
         )
     );
     /**

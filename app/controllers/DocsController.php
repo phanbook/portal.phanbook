@@ -6,6 +6,21 @@ class DocsController extends \ControllerBase
     public function indexAction()
     {
         
+        
+
+    }
+
+    public function showAction()
+    {
+        $slug = $this->dispatcher->getParam('slug');
+
+        $context = file_get_contents(ROOT_PATH . '/docs/vagrant.md');
+        $this->view->isFrontpage = 0;
+        $this->view->context = $context;
+    }
+
+    public function initialize()
+    {
         $this->view->isFrontpage = 0;
         $nav1 = [
             'install' => 'Installation',
@@ -39,12 +54,6 @@ class DocsController extends \ControllerBase
             'nav3' => $nav3,
             'nav4' => $nav4
         ]);
-
-    }
-
-    public function showAction($pageSlug)
-    {
-        return $this->response->redirect('http://docs.phalconphp.com/en/latest/index.html', true, 302);
     }
 
 }
