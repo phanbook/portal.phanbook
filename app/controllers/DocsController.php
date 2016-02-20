@@ -37,7 +37,7 @@ class DocsController extends \ControllerBase
         $nav3 = [
             'index' => 'index',
             'home'  => 'home',
-            'page'  => 'post',
+            'post'  => 'post',
             'page'  => 'page',
             'tag'   => 'tag',
             'user'  => 'user'
