@@ -46,7 +46,7 @@ class DocsController extends \ControllerBase
             'assets' => 'assets',
             'date'   => 'date',
             'volt'   => 'volt',
-            'phalcon' => 'View Helper'
+            'view-helper' => 'View Helper'
         ];
 
         $this->view->setVars([
