@@ -25,8 +25,10 @@ class DocsController extends \ControllerBase
         $this->view->isFrontpage = 0;
         $nav1 = [
             'install' => 'Installation',
-            'adding' => 'Adding Language',
-            'troble' => 'Troubleshooting'
+            'adding'  => 'Adding Language',
+            'troble'  => 'Troubleshooting',
+            'config'  => 'Config',
+            'setting' => 'Seting'
         ];
         $nav2 = [
             'structure' => 'Structure',
